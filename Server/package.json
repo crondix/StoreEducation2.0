@@ -1,0 +1,33 @@
+{
+  "name": "store-education",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "description": "StoreEducation",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.0",
+    "cors": "^2.8.5",
+    "debug": "^2.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "morgan": "^1.7.0",
+    "pg": "^8.11.4",
+    "pg-hstore": "^2.3.4",
+    "pug": "^3.0.2",
+    "sequelize": "^6.37.2",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "nodemon": "^3.1.0"
+  },
+  "eslintConfig": {}
+}
