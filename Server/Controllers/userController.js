@@ -3,7 +3,8 @@ const ApiError = require('../error/ApiError');
 const bcrypt = require('bcrypt');
 const { User, Basket } = require('../Models/Models');
 const jwt = require('jsonwebtoken');
-const { where } = require('sequelize');
+// const { where } = require('sequelize');
+
 
 const generateJwt = (id, email, role) => {
   return jwt.sign(
@@ -42,11 +43,8 @@ class UserController {
     return res.json({token})
   }
   async check(req, res, next) {
-    const id = req.query.id;
-    if (!id) {
-      return next(ApiError.badRequest('Не задано ID'));
-    }
-    res.json(id);
+  
+    res.json({message:"ALL Right"});
   }
 }
 
