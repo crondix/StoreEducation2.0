@@ -13,7 +13,7 @@ const AppRouter = () => {
             {publicRoutes.map(({ path, Component }) =>
                 <Route exact  key={path} path={path} element={<Component />}  />
             )}
-            { <Route path="*"  element={<Shop/>}/> }
+            <Route path="*"  element={<SHOP_ROUTE/>}/>
         </Routes>
     );
 };
