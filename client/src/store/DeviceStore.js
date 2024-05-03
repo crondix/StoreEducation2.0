@@ -4,9 +4,9 @@ export default class DeviceStore {
   constructor() {
     this._types = [
       { id: 1, name: "Холодильники" },
-      { id: 2, name: "смартфоны" },
-      { id: 3, name: "нетбуки" },
-      { id: 4, name: "телевизоры" },
+      { id: 2, name: "Смартфоны" },
+      { id: 3, name: "Нетбуки" },
+      { id: 4, name: "Телевизоры" },
     ];
     this._brands = [
       { id: 1, name: "Samsung" },
@@ -17,10 +17,10 @@ export default class DeviceStore {
       
     ];
     this._devices = [
-      { id: 1, name: "12 pro", price: 2500, rating: 5, img: `` },
-      { id: 2, name: "13 pro", price: 2500, rating: 5, img: `` },
-      { id: 3, name: "Galaxy fold", price: 2500, rating: 5, img: `` },
-      { id: 4, name: "21 ultra", price: 2500, rating: 5, img: `` },
+      { id: 1, name: "12 pro", price: 2500, rating: 5, img: `https://cdn.mos.cms.futurecdn.net/Pyma6LSPSGupqqWVwLYuJg.jpg` },
+      { id: 2, name: "13 pro", price: 2500, rating: 5, img: `https://cdn.mos.cms.futurecdn.net/Pyma6LSPSGupqqWVwLYuJg.jpg` },
+      { id: 3, name: "Galaxy fold", price: 2500, rating: 5, img: `https://cdn.mos.cms.futurecdn.net/Pyma6LSPSGupqqWVwLYuJg.jpg` },
+      { id: 4, name: "21 ultra", price: 2500, rating: 5, img: `https://cdn.mos.cms.futurecdn.net/Pyma6LSPSGupqqWVwLYuJg.jpg` },
     ];
     this._selectedType = {};
     this._selectedBrand = {};

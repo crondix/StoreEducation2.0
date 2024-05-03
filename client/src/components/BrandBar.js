@@ -10,7 +10,7 @@ export const BrandBar = observer(() => {
       {device.brands.map((brand) => (
         <Card
           key={brand.id}
-          className="p-3 "
+          className="p-3 ms-1"
           style={{ cursor: "pointer" }}
           onClick={() => device.setSelectedBrand(brand)}
           border={brand.id === device.selectedBrand.id ? "danger" : "#dee2e6"}
