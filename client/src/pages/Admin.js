@@ -1,9 +1,13 @@
-import React, { Component } from 'react'
+import React, {useState} from 'react';
+import {Button, Container} from "react-bootstrap";
+// import CreateBrand from "../components/modals/CreateBrand";
+// import CreateDevice from "../components/modals/CreateDevice";
+// import CreateType from "../components/modals/CreateType";
 
-export default class Admin extends Component {
-  render() {
-    return (
-      <div>Admin</div>
-    )
-  }
+const Admin = () => {
+  return (
+    <div>Admin</div>
+  )
 }
+
+export default Admin

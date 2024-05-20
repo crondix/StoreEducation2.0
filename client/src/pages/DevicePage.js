@@ -10,6 +10,9 @@ const DevicePage = () => {
     rating: 4,
     img: `https://cdn.mos.cms.futurecdn.net/Pyma6LSPSGupqqWVwLYuJg.jpg`,
   };
+  const description=[
+    {id:1, title:'Опереативная память', description:'5 гб'}
+  ]
   return (
     <Container className="mt-3">
       <Row>
@@ -48,9 +51,9 @@ const DevicePage = () => {
           </Card>
         </Col>
       </Row>
-      {/* <Row className="d-flex flex-column m-3">
+      <Row className="d-flex flex-column m-3">
         <h1>Характеристики</h1>
-        {device.info.map((info, index) => (
+        {description.map((info, index) => (
           <Row
             key={info.id}
             style={{
@@ -61,7 +64,7 @@ const DevicePage = () => {
             {info.title}: {info.description}
           </Row>
         ))}
-      </Row> */}
+      </Row>
     </Container>
   );
 };
